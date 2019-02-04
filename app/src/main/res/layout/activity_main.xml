@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dida.licentaprog.MainActivity"
+    android:background="#F7DC6F">
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btCal"
+                android:background="@mipmap/ic_programari"
+                android:layout_width="170dp"
+                android:layout_height="170dp" />
+            <Button
+                android:background="@mipmap/ic_pacienti"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:elevation="0dp"
+                android:id="@+id/btPac"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@mipmap/ic_diagnostic"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="105dp"
+                android:id="@+id/btDiagnostic" />
+
+            <Button
+                android:background="@mipmap/ic_chestionar"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginRight="60dp"
+                android:id="@+id/btChes"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/backgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="110dp"
+        android:textAlignment="center"
+        android:id="@+id/zLabel"
+        android:layout_height="wrap_content"
+        android:text="03"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+        android:text="Aug"
+        android:id="@+id/lLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginStart="260dp"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

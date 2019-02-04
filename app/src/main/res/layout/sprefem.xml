@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F3EB">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/intrebare"
+        android:layout_width="373dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="Intrebarea"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NU"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/choice1_1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="1"
+        android:textColor="#fff"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:id="@+id/choice1_2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="2"
+        android:textColor="#fff"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-74dp"/>
+
+    <Button
+        android:id="@+id/choice1_3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="3"
+        android:textColor="#fff"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-74dp"/>
+
+    <TextView
+        android:id="@+id/Decizie"
+        android:layout_width="373dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="-210dp"
+        android:padding="8dp"
+        android:text="Puteri sa teterminati un grand al acestei senzatii?"
+        android:textAlignment="center"
+        android:textSize="21dp" />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#D2F3EB">
+
+    <TextView
+        android:text="Informatii Generale"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_weight="0.05"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="329dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/nume"
+        android:hint="Nume" />
+
+    <EditText
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/prenume"
+        android:hint="Prenume" />
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/varsta"
+        android:hint="Varsta" />
+
+    <EditText
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/sex"
+        android:hint="Sex" />
+
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/inaltime"
+        android:hint="Inaltime" />
+
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/greutate"
+        android:hint="Greutate" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Contacte"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/telefon"
+        android:hint="Numar de telefon" />
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="18dp"
+        android:textColor="#AAB7B8"
+        android:id="@+id/mail"
+        android:hint="E-mail" />
+
+    <Button
+        android:text="Spre chestionar"
+        android:layout_width="168dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spre"
+        android:layout_weight="0.09"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+</LinearLayout>

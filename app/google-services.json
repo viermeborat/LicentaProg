@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "548568762679",
+    "firebase_url": "https://licentaprog.firebaseio.com",
+    "project_id": "licentaprog",
+    "storage_bucket": "licentaprog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548568762679:android:30f2db7782516ee0",
+        "android_client_info": {
+          "package_name": "com.example.dida.licentaprog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548568762679-2o500jcu8v365nbqcvvochf5fig102cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dida.licentaprog",
+            "certificate_hash": "f83213c1602355e3b9f40008853d7477e0a59925"
+          }
+        },
+        {
+          "client_id": "548568762679-brgq7mu1bhhab8tdruav0itm6c2t5a0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWeLOk7nL-V4KK_1Wzsiz9a5WVGJ9OUXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548568762679-brgq7mu1bhhab8tdruav0itm6c2t5a0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
